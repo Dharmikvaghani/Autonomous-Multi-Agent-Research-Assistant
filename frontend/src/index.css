@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #060a13;
+  }
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.4);
+}
+
+/* Animated gradient border */
+@keyframes borderGlow {
+  0%, 100% { border-color: rgba(99, 102, 241, 0.3); }
+  50% { border-color: rgba(168, 85, 247, 0.5); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 20px -8px rgba(99, 102, 241, 0.3); }
+  50% { box-shadow: 0 0 30px -5px rgba(99, 102, 241, 0.5); }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.4s ease-out forwards;
+}
+
+.animate-borderGlow {
+  animation: borderGlow 3s ease-in-out infinite;
+}
+
+.animate-pulseGlow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.shimmer-bg {
+  background: linear-gradient(90deg, transparent 25%, rgba(99, 102, 241, 0.06) 50%, transparent 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Glass morphism utility */
+.glass {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.glass-hover:hover {
+  background: rgba(15, 23, 42, 0.8);
+  border-color: rgba(99, 102, 241, 0.2);
+}
+
+/* Custom range slider styling */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  border: 2px solid #1e1b4b;
+  margin-top: -6px;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+}
+
+/* Markdown prose overrides */
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  color: #e2e8f0 !important;
+  font-weight: 700;
+}
+.prose p, .prose li {
+  color: #94a3b8 !important;
+  line-height: 1.8;
+}
+.prose code {
+  color: #a5b4fc !important;
+  background: rgba(30, 27, 75, 0.4) !important;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+.prose a {
+  color: #818cf8 !important;
+}
+.prose blockquote {
+  border-left-color: #6366f1 !important;
+  color: #94a3b8 !important;
+}

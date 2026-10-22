@@ -1,0 +1,152 @@
+[
+    {
+        "filename": "test_paper.pdf",
+        "title": "This is a sample research abstract discussing the application of Neural Networks to General Organic",
+        "chunk_count": 4,
+        "sections": [
+            "Abstract",
+            "Introduction",
+            "Methodology",
+            "Conclusion",
+            "References"
+        ],
+        "table_count": 0,
+        "reference_count": 2,
+        "summary": "This paper explores the application of Neural Networks to General Organic Chemistry (GOC), with a focus on classifying molecules and predicting reaction pathways. The core objective is to investigate machine learning approaches, specifically deep learning models, for GOC. The methodology involves utilizing graph neural networks to learn structural rules in organic chemistry. The key contribution of this research is the potential to leverage deep learning models to improve the classification and prediction of molecular properties and reaction pathways, thereby enhancing the field of organic chemistry. By applying machine learning approaches to GOC, this study aims to demonstrate the effectiveness of neural networks in learning complex chemical structures and reactions, and to provide a foundation for future research in this area. The outcome of this research could lead to significant advancements in the field of organic chemistry, enabling more accurate predictions and classifications of molecular properties and reactions.",
+        "timestamp": "2026-05-29T14:15:53.403711"
+    },
+    {
+        "filename": "opticsbook.pdf",
+        "title": "Physics of Light and Optics",
+        "chunk_count": 835,
+        "sections": [
+            "Header/Title"
+        ],
+        "table_count": 21,
+        "reference_count": 0,
+        "summary": "No Abstract or Introduction content available to summarize.",
+        "timestamp": "2026-05-30T12:00:11.847477",
+        "workspace": "physics_project"
+    },
+    {
+        "filename": "Enhancing_Biology_Laboratory_Learning_Student_Perceptions_of_Performing_Heart_Dissection_With_Virtual_Reality.pdf",
+        "title": "Enhancing Biology Laboratory Learning: Student Perceptions of Performing Heart Dissection With Virtual Reality",
+        "chunk_count": 42,
+        "sections": [
+            "Header/Title",
+            "Abstract",
+            "Introduction",
+            "Conclusion",
+            "References"
+        ],
+        "table_count": 0,
+        "reference_count": 34,
+        "summary": "This study investigates the effectiveness of Virtual Reality (VR) technology, specifically the Oculus Quest 2, in enhancing biology laboratory learning. The core objective is to assess the potential of VR in stimulating student interest and understanding of biology concepts, particularly heart dissection. The methodology involves engaging 23 secondary school students in a VR-based instructional class. The study evaluates the feasibility of replacing traditional laboratory settings with VR-based learning environments. Key contributions include insights into the effectiveness of VR in enhancing academic engagement and understanding of biology concepts, as well as its potential to transform the traditional learning experience into a more interactive and engaging approach. The findings reveal that VR can significantly stimulate student interest in biology, with important implications for the future of educational methodologies in science and technology subjects.",
+        "timestamp": "2026-06-15T13:35:13.455754",
+        "workspace": "default"
+    },
+    {
+        "filename": "Internet_of_Things_IoT_for_Next-Generation_Smart_Systems_A_Review_of_Current_Challenges_Future_Trends_and_Prospects_for_Emerging_5G-IoT_Scenarios.pdf",
+        "title": "SPECIAL SECTION ON ANTENNA AND PROPAGATION FOR 5G AND BEYOND",
+        "chunk_count": 73,
+        "sections": [
+            "Header/Title",
+            "Introduction",
+            "Conclusion",
+            "References"
+        ],
+        "table_count": 0,
+        "reference_count": 117,
+        "summary": "This paper reviews the current challenges, future trends, and prospects of the Internet of Things (IoT) for next-generation smart systems. The core objective is to envision the future of IoT, which is expected to connect around 28 billion smart devices by 2021, with applications in e-health, smart homes, automation, and transportation. The paper highlights the increasing demand for machine-to-machine communication, with over 15 billion devices employing M2M communication. The authors aim to provide a comprehensive overview of the current state of IoT, its future directions, and the challenges that need to be addressed, including increased data volume, connected devices, and user data-rate, as well as reduced latency and extended battery life. The paper's key contributions lie in its analysis of the amalgam of various technologies, such as sensors, embedded systems, and cyber-physical systems, and their integration with device-to-device communications.",
+        "timestamp": "2026-06-15T13:35:28.351303",
+        "workspace": "physics_project"
+    },
+    {
+        "filename": "AlphaFold 3.pdf",
+        "title": "From Prediction to Simulation: AlphaFold 3 as a Differentiable Framework for Structural Biology",
+        "chunk_count": 69,
+        "sections": [
+            "Header/Title",
+            "Abstract",
+            "Introduction",
+            "Conclusion",
+            "References"
+        ],
+        "table_count": 0,
+        "reference_count": 106,
+        "summary": "This paper introduces AlphaFold 3, a transformative advancement in computational biology that enhances protein structure prediction and simulation. The core objective is to reframe protein folding predictions as a differentiable process, bridging traditional static structural modeling with dynamic molecular simulations. AlphaFold 3 achieves this through novel multi-scale transformer architectures, biologically-informed cross-attention mechanisms, and geometry-aware optimization strategies. The methodology integrates deep learning with physics-based molecular dynamics, allowing for the simulation of protein dynamics and conformational ensembles. The key contributions include improved predictive accuracy and generalization across diverse protein families, and a paradigm shift towards differentiable simulation. This approach has far-reaching implications for precision medicine and rational drug discovery, enabling the development of personalized therapeutics and intelligent biological design. By treating AlphaFold 3 as an implicit structural simulator, the paper highlights its potential to reveal protein dynamics, model interaction networks, and accelerate progress in fields such as drug discovery and enzyme engineering.",
+        "timestamp": "2026-06-15T13:38:23.329922",
+        "workspace": "default"
+    },
+    {
+        "filename": "Artificial_Intelligence_AI_Fundamentals_for_the_Display_Industry_A_Review_August_2024.pdf",
+        "title": "Artificial Intelligence (AI) Fundamentals for the Display Industry: A Review (August 2024)",
+        "chunk_count": 46,
+        "sections": [
+            "Header/Title",
+            "Abstract",
+            "Introduction",
+            "Conclusion",
+            "References"
+        ],
+        "table_count": 0,
+        "reference_count": 75,
+        "summary": "This paper provides a comprehensive review of artificial intelligence (AI) fundamentals and their applications in the display industry. The core objective is to introduce essential AI theories, including machine learning (ML) and deep learning (DL), to facilitate understanding of AI applications in the display industry. The methodology involves reviewing optimization techniques, deep learning architectures, and learning paradigms, as well as explaining explainable AI techniques for model analysis. The key contributions of this paper include providing a hierarchical relationship between AI, ML, and DL, classifying ML tasks, and introducing primary metrics and models for each task. The paper aims to serve as a foundation for a separate paper reviewing practical application cases of AI in the display industry, providing a comprehensive overview of AI concepts and methodologies for industry professionals and researchers.",
+        "timestamp": "2026-06-17T12:10:25.239318",
+        "workspace": "default"
+    },
+    {
+        "filename": "verify_test_paper.pdf",
+        "title": "Graph Neural Networks for Molecular Property Prediction",
+        "chunk_count": 6,
+        "sections": [
+            "Header/Title",
+            "Abstract",
+            "Introduction",
+            "Methodology",
+            "Results",
+            "Conclusion",
+            "References"
+        ],
+        "table_count": 0,
+        "reference_count": 3,
+        "summary": "Graph Neural Networks for Molecular Property Prediction  \n**Executive Summary**  \nThe study introduces a deep learning framework that employs Graph Convolutional Networks (GCNs) to predict molecular toxicity, a critical property in early drug discovery. By representing molecules as graphs\u2014atoms as nodes and bonds as edges\u2014the model learns chemically meaningful embeddings directly from structural information, bypassing the need for handcrafted descriptors used in conventional QSAR approaches. The authors train the GCN on a curated dataset of toxic and non\u2011toxic compounds, optimizing a binary cross\u2011entropy loss and employing dropout, batch normalization, and early stopping to prevent overfitting. Evaluation on standard benchmarks demonstrates that the GCN outperforms state\u2011of\u2011the\u2011art methods, achieving higher area\u2011under\u2011ROC and F1 scores while maintaining computational efficiency. Key contributions include: (1) a scalable graph\u2011based representation that captures both local and global molecular features; (2) a training pipeline that integrates data augmentation and rigorous cross\u2011validation; and (3) a detailed analysis of feature importance that aligns with known toxicophore motifs. The work establishes GCNs as a powerful, end\u2011to\u2011end alternative for rapid, accurate toxicity screening in drug development pipelines.",
+        "timestamp": "2026-10-09T21:34:09.735967",
+        "workspace": "default"
+    },
+    {
+        "filename": "arxiv_2402_multi_agent_collaboration.pdf",
+        "title": "Communicative Agents for Software Development: A Collaborative Paradigm",
+        "chunk_count": 8,
+        "sections": [
+            "Header/Title",
+            "Abstract",
+            "1. Introduction",
+            "2. Multi-Agent Framework",
+            "3. Role Assignment & Prompting",
+            "4. Experimental Results",
+            "5. Ablation Studies",
+            "6. Conclusion & Future Work"
+        ],
+        "table_count": 0,
+        "reference_count": 3,
+        "summary": "This seminal academic paper introduces communicative multi-agent coordination architectures for complex software and literature synthesis, achieving 42.6% accuracy improvements over monolithic models.",
+        "timestamp": "2026-10-09T21:35:40.178610",
+        "workspace": "default"
+    },
+    {
+        "filename": "give_me_new_business_idea_report.pdf",
+        "title": "1. Executive Summary",
+        "chunk_count": 28,
+        "sections": [
+            "Header/Title",
+            "Introduction",
+            "Conclusion"
+        ],
+        "table_count": 0,
+        "reference_count": 0,
+        "summary": "The study seeks to develop a unified framework that integrates AI\u2011driven personalization, additive manufacturing (AM), and decentralized finance (DeFi) tokenisation to enable scalable, high\u2011margin business models across banking, agriculture, manufacturing, fintech, and compliance sectors. Its objectives are to (1) systematically map unmet market needs using AI\u2011augmented data streams, (2) compare platform\u2011versus\u2011product ecosystems for scalability in niche verticals, and (3) identify technical and regulatory barriers to commercial deployment. Methodologically, the authors conduct a literature synthesis of nine peer\u2011reviewed academic papers and industry reports (2011\u20112026) sourced from Semantic Scholar, arXiv, and CrossRef, with no external web sources consulted. Key contributions include: a comprehensive, evidence\u2011based roadmap outlining how AI, AM, and DeFi can be combined; a comparative analysis of platform and product ecosystems highlighting scalability advantages; and a quantified assessment of regulatory, technical, and market entry hurdles. The paper offers decision\u2011makers a rigorous, multidisciplinary blueprint to navigate the converging technologies and unlock new revenue streams while reducing entry barriers in high\u2011growth sectors.",
+        "timestamp": "2026-10-10T20:05:20.592035",
+        "workspace": "ai_research"
+    }
+]
